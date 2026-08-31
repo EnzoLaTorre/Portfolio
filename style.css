@@ -318,9 +318,46 @@ body {
   stroke-linejoin: round;
 }
 
-.chip-code { top: 4%; left: -6%; }
-.chip-backend { right: -5%; top: 42%; }
-.chip-oop { bottom: 6%; right: -4%; }
+/* ---------- Órbita dinámica de etiquetas alrededor del avatar ---------- */
+.orbit {
+  position: absolute;
+  inset: 0;
+  --radius: 130px;
+  animation: orbitSpin 30s linear infinite;
+  will-change: transform;
+  pointer-events: none;
+}
+
+.orbit__item {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: rotate(var(--angle)) translateX(var(--radius));
+}
+
+.orbit__item .chip {
+  transform: translate(-50%, -50%);
+  animation: chipOrbit 30s linear infinite;
+  will-change: transform;
+}
+
+@keyframes orbitSpin {
+  to { transform: rotate(360deg); }
+}
+
+@keyframes chipOrbit {
+  from { transform: translate(-50%, -50%) rotate(0deg); }
+  to { transform: translate(-50%, -50%) rotate(-360deg); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .orbit {
+    animation: none;
+  }
+  .orbit__item .chip {
+    animation: none;
+  }
+}
 
 .availability-badge {
   display: inline-flex;
@@ -1036,9 +1073,19 @@ body {
     font-size: 3.4rem;
   }
 
-  .chip-code { left: 6%; }
-  .chip-oop { bottom: 4%; right: 6%; }
-  .chip-backend { right: 6%; top: 6%; }
+  .orbit {
+    --radius: 92px;
+  }
+
+  .chip {
+    padding: 6px 11px;
+    font-size: 0.72rem;
+  }
+
+  .chip svg {
+    width: 14px;
+    height: 14px;
+  }
 }
 
 @media (max-width: 680px) {
