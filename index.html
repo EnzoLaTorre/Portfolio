@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portafolio profesional de Enzo La Torre, Desarrollador Junior de aplicaciones web con base en HTML, CSS, JavaScript y Node.js, en aprendizaje activo de Vue y TypeScript.">
+  <title>Enzo La Torre | Desarrollador Junior</title>
+
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%23070b14'/><g fill='none' stroke='%2338bdf8' stroke-width='7' stroke-linecap='round' stroke-linejoin='round'><path d='M38 30 22 50l16 20'/><path d='M62 30l16 20-16 20'/><path d='M55 26l-10 48'/></g></svg>">
+
+  <!-- Tipografías -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Sprite de iconos SVG (línea) -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <defs>
+      <symbol id="icon-html" viewBox="0 0 24 24">
+        <path d="M8 4l-5 8 5 8"/>
+        <path d="M16 4l5 8-5 8"/>
+        <path d="M13.5 4l-3 16"/>
+      </symbol>
+      <symbol id="icon-css" viewBox="0 0 24 24">
+        <path d="M9 3 6 21"/>
+        <path d="M18 3l-3 18"/>
+        <path d="M3 9h18"/>
+        <path d="M3 15h18"/>
+      </symbol>
+      <symbol id="icon-js" viewBox="0 0 24 24">
+        <path d="M8 3H7a2 2 0 0 0-2 2v5a2 2 0 0 1-2 2 2 2 0 0 1 2 2v5c0 1.1.9 2 2 2h1"/>
+        <path d="M16 21h1a2 2 0 0 0 2-2v-5c0-1.1.9-2 2-2a2 2 0 0 1-2-2V5a2 2 0 0 0-2-2h-1"/>
+      </symbol>
+      <symbol id="icon-git" viewBox="0 0 24 24">
+        <circle cx="6" cy="6" r="3"/>
+        <circle cx="6" cy="18" r="3"/>
+        <circle cx="18" cy="6" r="3"/>
+        <path d="M6 9v12"/>
+        <path d="M18 9a9 9 0 0 1-9 9"/>
+      </symbol>
+      <symbol id="icon-github" viewBox="0 0 24 24">
+        <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/>
+      </symbol>
+      <symbol id="icon-email" viewBox="0 0 24 24">
+        <rect x="2" y="4" width="20" height="16" rx="2"/>
+        <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>
+      </symbol>
+      <symbol id="icon-python" viewBox="0 0 24 24">
+        <path d="M12 4c-5 0-6 2-6 5v3c0 2 1 3 4 3"/>
+        <path d="M12 20c5 0 6-2 6-5v-3c0-2-1-3-4-3"/>
+        <path d="M9 15c0 1.5 1 3 3 3"/>
+        <path d="M15 9c0-1.5-1-3-3-3"/>
+        <circle cx="7.5" cy="8" r="0.5" fill="currentColor"/>
+        <circle cx="16.5" cy="16" r="0.5" fill="currentColor"/>
+      </symbol>
+      <symbol id="icon-sql" viewBox="0 0 24 24">
+        <ellipse cx="12" cy="5" rx="8" ry="3"/>
+        <path d="M4 5v14c0 1.66 3.58 3 8 3s8-1.34 8-3V5"/>
+        <path d="M4 12c0 1.66 3.58 3 8 3s8-1.34 8-3"/>
+      </symbol>
+      <symbol id="icon-chart" viewBox="0 0 24 24">
+        <path d="M4 20h16"/>
+        <path d="M7 20v-6"/>
+        <path d="M12 20v-11"/>
+        <path d="M17 20V9"/>
+      </symbol>
+      <symbol id="icon-table" viewBox="0 0 24 24">
+        <rect x="4" y="4" width="16" height="16" rx="2"/>
+        <path d="M4 10h16"/>
+        <path d="M4 16h16"/>
+        <path d="M10 4v16"/>
+      </symbol>
+      <symbol id="icon-code" viewBox="0 0 24 24">
+        <path d="M5 7l5 5-5 5"/>
+        <path d="M13 17h6"/>
+      </symbol>
+      <symbol id="icon-node" viewBox="0 0 24 24">
+        <path d="M12 2l8.66 5v10L12 22l-8.66-5V7z"/>
+        <circle cx="12" cy="12" r="3.5"/>
+      </symbol>
+      <symbol id="icon-express" viewBox="0 0 24 24">
+        <path d="M13 2 4.5 13H11l-1 9 8.5-11H12l1-9z"/>
+      </symbol>
+      <symbol id="icon-oop" viewBox="0 0 24 24">
+        <rect x="3" y="3" width="7" height="7" rx="1"/>
+        <rect x="14" y="3" width="7" height="7" rx="1"/>
+        <rect x="3" y="14" width="7" height="7" rx="1"/>
+        <circle cx="17.5" cy="17.5" r="3.5"/>
+      </symbol>
+      <symbol id="icon-vue" viewBox="0 0 24 24">
+        <path d="M2 3h4l6 10.5L18 3h4L12 21z"/>
+        <path d="M12 21L6 13.5"/>
+        <path d="M12 21l6-7.5"/>
+      </symbol>
+      <symbol id="icon-typescript" viewBox="0 0 24 24">
+        <rect x="3" y="3" width="18" height="18" rx="2"/>
+        <path d="M8 14.5c0 1.38.56 2.5 2.5 2.5s2.5-1.12 2.5-2.5c0-1.75-2.5-2-2.5-3.5"/>
+        <path d="M15 14.5c0 1.38.56 2.5 2.5 2.5s2.5-1.12 2.5-2.5c0-1.75-2.5-2-2.5-3.5"/>
+      </symbol>
+    </defs>
+  </svg>
+
+  <!-- Barra de progreso de scroll -->
+  <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+
+  <header class="navbar" id="navbar">
+    <nav class="container" aria-label="Navegación principal">
+      <a href="#inicio" class="logo">&lt;Enzo La&nbsp;Torre /&gt;</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#inicio" class="nav-link">Inicio</a></li>
+        <li><a href="#sobre-mi" class="nav-link">Sobre mí</a></li>
+        <li><a href="#tecnologias" class="nav-link">Tecnologías</a></li>
+        <li><a href="#proyectos" class="nav-link">Proyectos</a></li>
+        <li><a href="#contacto" class="nav-link">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ============ HERO ============ -->
+    <section id="inicio" class="hero">
+      <div class="hero-blob blob-1" aria-hidden="true"></div>
+      <div class="hero-blob blob-2" aria-hidden="true"></div>
+      <div class="container">
+        <div class="hero-grid">
+          <div class="hero-content">
+            <span class="availability-badge"><span class="dot"></span> Disponible para oportunidades</span>
+            <p class="hero-greeting">&lt;h1&gt;</p>
+            <h1 class="hero-name">Enzo La Torre</h1>
+            <p class="hero-title">&gt; <span id="typeWriter"></span><span class="cursor" aria-hidden="true"></span></p>
+            <p class="hero-desc">
+              Desarrollo interfaces web limpias y funcionales con HTML, CSS y
+              JavaScript, y estoy ampliando mi formación hacia el backend con
+              Node.js y Express. En aprendizaje activo de Vue, TypeScript y
+              programación orientada a objetos.
+            </p>
+            <div class="hero-buttons">
+              <a href="#proyectos" class="btn btn-primary">Ver proyectos</a>
+              <a href="https://github.com/enzolatorre" target="_blank" rel="noopener noreferrer" class="btn btn-outline">GitHub <span class="ext">↗</span></a>
+            </div>
+          </div>
+
+          <div class="hero-visual">
+            <div class="avatar-glow" aria-hidden="true"></div>
+            <div class="avatar-ring" aria-hidden="true"></div>
+            <div class="avatar">
+              <span class="avatar-initials">EL</span>
+            </div>
+            <span class="chip chip-code">
+              <svg><use href="#icon-code"/></svg>
+              Front-end
+            </span>
+            <span class="chip chip-backend">
+              <svg><use href="#icon-node"/></svg>
+              Backend
+            </span>
+            <span class="chip chip-oop">
+              <svg><use href="#icon-oop"/></svg>
+              POO
+            </span>
+          </div>
+        </div>
+      </div>
+      <a href="#sobre-mi" class="scroll-hint" aria-label="Bajar a Sobre mí">
+        <span class="mouse"><span class="wheel"></span></span>
+      </a>
+    </section>
+
+    <!-- ============ SOBRE MÍ ============ -->
+    <section id="sobre-mi" class="section">
+      <div class="container">
+        <h2 class="section-title">Sobre mí</h2>
+        <div class="about-grid">
+          <div>
+            <p class="about-text">
+              Soy <strong>Enzo La Torre</strong>, desarrollador júnior con enfoque
+              en el desarrollo de aplicaciones web. Me interesa construir soluciones
+              funcionales y escalables, desde la interfaz de usuario hasta la lógica
+              del servidor, y estoy comprometido con aprender y crecer
+              constantemente.
+            </p>
+            <p class="about-text">
+              Mi base está en el <strong>desarrollo front-end</strong> con HTML, CSS
+              y JavaScript. Actualmente estoy profundizando en la
+              <strong>programación orientada a objetos</strong> y fortaleciendo mis
+              conocimientos de Git y GitHub para trabajar de forma profesional en
+              equipo.
+            </p>
+            <p class="about-text">
+              En el <strong>backend</strong> estoy aprendiendo Node.js y Express para
+              crear APIs y entender la lógica del servidor. Al mismo tiempo estoy
+              formándome en <strong>Vue, Vuetify y TypeScript</strong> para ampliar
+              mis capacidades como desarrollador front-end.
+            </p>
+            <p class="about-text">
+              Además, estoy adquiriendo conocimientos de <strong>Linux</strong>,
+              <strong>metodología ágil</strong> e <strong>inglés</strong> para
+              completar mi perfil. Busco mi primera oportunidad laboral para
+              integrarme a un equipo, contribuir con entusiasmo y seguir evolucionando
+              como profesional.
+            </p>
+            <div class="badges">
+              <span class="badge">Front-end: HTML, CSS, JS</span>
+              <span class="badge">Backend: Node.js / Express</span>
+              <span class="badge">Aprendiendo Vue y TypeScript</span>
+              <span class="badge">Programación orientada a objetos</span>
+              <span class="badge">Metodología ágil (Scrum)</span>
+              <span class="badge">Linux</span>
+              <span class="badge">Inglés en curso</span>
+              <span class="badge">Trabajo en equipo</span>
+            </div>
+          </div>
+          <div class="about-card">
+            <h3>Datos rápidos</h3>
+            <ul>
+              <li><span>Rol:</span> Desarrollador Junior</li>
+              <li><span>Área:</span> Front-end · Backend · POO</li>
+              <li><span>Base:</span> Remote / A distancia</li>
+              <li><span>Idiomas:</span> Español (nativo) · Inglés (en curso)</li>
+            </ul>
+            <a href="mailto:enzolatorrech18@gmail.com" class="btn btn-primary btn-block">Hablemos</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ TECNOLOGÍAS ============ -->
+    <section id="tecnologias" class="section alt">
+      <div class="container">
+        <h2 class="section-title">Tecnologías</h2>
+        <p class="section-subtitle">Herramientas con las que trabajo día a día.</p>
+        <div class="tech-grid" id="techGrid">
+          <!-- Renderizado desde script.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PROYECTOS ============ -->
+    <section id="proyectos" class="section">
+      <div class="container">
+        <h2 class="section-title">Proyectos</h2>
+        <p class="section-subtitle">Algunos de mis trabajos. Se irán sumando a medida que avance.</p>
+        <div class="projects-grid" id="projectsGrid">
+          <!-- Renderizado desde script.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACTO ============ -->
+    <section id="contacto" class="section alt">
+      <div class="container">
+        <h2 class="section-title">Contacto</h2>
+        <p class="section-subtitle">¿Hablamos? Estoy disponible para oportunidades, proyectos y colaboraciones.</p>
+
+        <div class="contact-layout">
+          <div class="contact-channels">
+            <a href="https://github.com/enzolatorre" target="_blank" rel="noopener noreferrer" class="contact-card">
+              <span class="contact-icon" aria-hidden="true"><svg><use href="#icon-github"/></svg></span>
+              <span class="contact-info">
+                <span class="contact-label">GitHub</span>
+                <span class="contact-value">github.com/enzolatorre</span>
+              </span>
+            </a>
+            <a href="mailto:enzolatorrech18@gmail.com" class="contact-card">
+              <span class="contact-icon" aria-hidden="true"><svg><use href="#icon-email"/></svg></span>
+              <span class="contact-info">
+                <span class="contact-label">Email</span>
+                <span class="contact-value">enzolatorrech18@gmail.com</span>
+              </span>
+            </a>
+          </div>
+
+          <form class="contact-form" id="contactForm" novalidate>
+            <h3>Envíame un mensaje</h3>
+
+            <div class="form-row">
+              <div class="form-field">
+                <label for="cf-name">Nombre</label>
+                <input type="text" id="cf-name" name="name" placeholder="Tu nombre" autocomplete="name">
+                <span class="form-error" data-error-for="name"></span>
+              </div>
+              <div class="form-field">
+                <label for="cf-email">Email</label>
+                <input type="email" id="cf-email" name="email" placeholder="tu@email.com" autocomplete="email">
+                <span class="form-error" data-error-for="email"></span>
+              </div>
+            </div>
+
+            <div class="form-field">
+              <label for="cf-message">Mensaje</label>
+              <textarea id="cf-message" name="message" rows="5" placeholder="Cuéntame sobre tu proyecto u oportunidad..."></textarea>
+              <span class="form-error" data-error-for="message"></span>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Enviar mensaje</button>
+            <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© 2026 Enzo La Torre · Hecho con HTML, CSS y JavaScript</p>
+    </div>
+  </footer>
+
+  <script src="data/projects.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
