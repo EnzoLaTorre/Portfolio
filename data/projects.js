@@ -28,7 +28,7 @@ window.PROJECTS_DATA = {
         'Este mismo sitio web: portafolio responsive con diseño oscuro, animaciones y validación de formulario, construido solo con HTML, CSS y JavaScript.',
       tags: ['HTML', 'CSS', 'JavaScript'],
       demoUrl: '#',
-      repoUrl: 'https://github.com/enzolatorre/enzolatorre.github.io',
+      repoUrl: 'https://github.com/EnzoLaTorre/Portfolio',
       image: '',
       gradient: 'neon',
     },
@@ -37,7 +37,7 @@ window.PROJECTS_DATA = {
       description:
         'Gestor de tareas con JavaScript puro aplicando programación orientada a objetos: clases, encapsulamiento, herencia y persistencia con localStorage.',
       tags: ['HTML', 'CSS', 'JavaScript', 'POO'],
-      demoUrl: 'https://enzolatorre.github.io/gestor-tareas/',
+      demoUrl: 'https://enzolatorre.github.io/Portfolio/gestor-tareas/',
       repoUrl: 'https://github.com/EnzoLaTorre/gestor-tareas',
       image: '',
       gradient: 'ocean',

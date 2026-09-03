@@ -1,4 +1,4 @@
-# 🌐 enzolatorre.github.io
+# 🌐 Portfolio
 
 > **Portafolio profesional / Professional Portfolio**
 > **Enzo La Torre** · Desarrollador Junior de aplicaciones web / Junior Web Developer.
@@ -11,7 +11,7 @@ A personal responsive portfolio with a modern dark design, animations, and form 
 
 ## 🌐 Sitio en línea / Live site
 
-👉 [https://enzolatorre.github.io](https://enzolatorre.github.io)
+👉 [https://enzolatorre.github.io/Portfolio](https://enzolatorre.github.io/Portfolio)
 
 ---
 
@@ -51,7 +51,7 @@ A personal responsive portfolio with a modern dark design, animations, and form 
 ## 📁 Estructura del proyecto / Project structure
 
 ```
-enzolatorre.github.io/
+Portfolio/
 ├── index.html      # Estructura del sitio / site structure
 ├── style.css       # Estilos, tema oscuro, animaciones, responsive
 ├── script.js       # Interactividad y renderizado de proyectos
@@ -76,7 +76,7 @@ No requiere instalación ni backend / No installation or backend required.
 
 ## 🗂️ Proyectos destacados / Featured projects
 
-- **Gestor de Tareas con POO / OOP Task Manager** — [demo](https://enzolatorre.github.io/gestor-tareas/) · [repo](https://github.com/EnzoLaTorre/gestor-tareas)
+- **Gestor de Tareas con POO / OOP Task Manager** — [demo](https://enzolatorre.github.io/Portfolio/gestor-tareas/) · [repo](https://github.com/EnzoLaTorre/gestor-tareas)
 
 ---
 
@@ -84,6 +84,6 @@ No requiere instalación ni backend / No installation or backend required.
 
 **Enzo La Torre**
 
-- 🌐 [Portafolio](https://enzolatorre.github.io)
+- 🌐 [Portafolio](https://enzolatorre.github.io/Portfolio)
 - 🐙 [GitHub](https://github.com/enzolatorre)
 - 📧 [enzolatorrech18@gmail.com](mailto:enzolatorrech18@gmail.com)
