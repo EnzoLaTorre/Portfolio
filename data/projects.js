@@ -37,7 +37,7 @@ window.PROJECTS_DATA = {
       description:
         'Gestor de tareas con JavaScript puro aplicando programación orientada a objetos: clases, encapsulamiento, herencia y persistencia con localStorage.',
       tags: ['HTML', 'CSS', 'JavaScript', 'POO'],
-      demoUrl: 'https://enzolatorre.github.io/Portfolio/gestor-tareas/',
+      demoUrl: 'https://enzolatorre.github.io/gestor-tareas/',
       repoUrl: 'https://github.com/EnzoLaTorre/gestor-tareas',
       image: '',
       gradient: 'ocean',
