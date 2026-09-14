@@ -63,7 +63,7 @@ function initTyping() {
   const el = document.getElementById('typeWriter');
   if (!el) return;
 
-  const roles = ['Desarrollador Junior', 'HTML + CSS + JavaScript', 'React + TypeScript', 'Python + FastAPI', 'RAG con OpenAI y ChromaDB'];
+  const roles = ['Estudiante de Ciencia de Datos', 'Python + FastAPI', 'RAG · IA Aplicada', 'OpenAI + ChromaDB', 'TECSUP'];
   let roleIndex = 0;
   let charIndex = 0;
   let deleting = false;

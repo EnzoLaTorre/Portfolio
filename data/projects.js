@@ -25,69 +25,12 @@ window.PROJECTS_DATA = {
     {
       title: 'RAG SaaS · Chat con tus documentos',
       description:
-        'SaaS multitenant de RAG: sube PDF/DOCX/TXT y haz preguntas con respuestas en streaming y citas verificables. FastAPI + React + ChromaDB + OpenAI.',
-      tags: ['Python', 'FastAPI', 'React', 'TypeScript', 'OpenAI', 'ChromaDB'],
+        'SaaS multitenant de RAG: sube PDF/DOCX/TXT y haz preguntas con respuestas en streaming y citas verificables. Python, FastAPI, ChromaDB y OpenAI.',
+      tags: ['Python', 'FastAPI', 'OpenAI', 'ChromaDB', 'React', 'TypeScript'],
       demoUrl: '#',
       repoUrl: 'https://github.com/EnzoLaTorre/rag-saas',
       image: '',
       gradient: 'sunset',
     },
-    {
-      title: 'Enzo La Torre · Portafolio',
-      description:
-        'Este mismo sitio web: portafolio responsive con diseño oscuro, animaciones y validación de formulario, construido solo con HTML, CSS y JavaScript.',
-      tags: ['HTML', 'CSS', 'JavaScript'],
-      demoUrl: '#',
-      repoUrl: 'https://github.com/EnzoLaTorre/Portfolio',
-      image: '',
-      gradient: 'neon',
-    },
-    {
-      title: 'Gestor de Tareas con POO',
-      description:
-        'Gestor de tareas con JavaScript puro aplicando programación orientada a objetos: clases, encapsulamiento, herencia y persistencia con localStorage.',
-      tags: ['HTML', 'CSS', 'JavaScript', 'POO'],
-      demoUrl: 'https://enzolatorre.github.io/gestor-tareas/',
-      repoUrl: 'https://github.com/EnzoLaTorre/gestor-tareas',
-      image: '',
-      gradient: 'ocean',
-    },
-
-    // ----- Ejemplos de proyectos de ciencia de datos (solo estructura) -----
-    // Cuando tengas un proyecto de data science, copia uno de estos bloques
-    // dentro del arreglo "projects". Sus tags sumarán tarjetas a "Tecnologías"
-    // automáticamente (ej.: 'Python', 'Pandas', 'Power BI' ya están en base).
-
-    // {
-    //   title: 'Análisis de ventas con Python',
-    //   description:
-    //     'Limpieza, análisis y visualización de un dataset real usando Pandas y Power BI.',
-    //   tags: ['Python', 'Pandas', 'Power BI'],
-    //   demoUrl: '#',
-    //   repoUrl: '#',
-    //   gradient: 'ocean',
-    // },
-
-    // {
-    //   title: 'Dashboard de métricas',
-    //   description:
-    //     'Consulta de datos con SQL y tablero interactivo para tomar decisiones.',
-    //   tags: ['SQL', 'Power BI'],
-    //   demoUrl: '#',
-    //   repoUrl: '#',
-    //   gradient: 'forest',
-    // },
-
-    // ----- Ejemplo de proyecto backend -----
-
-    // {
-    //   title: 'API REST de tareas',
-    //   description:
-    //     'API REST construida con Node.js y Express para gestionar tareas y usuarios.',
-    //   tags: ['Node.js', 'Express'],
-    //   demoUrl: '#',
-    //   repoUrl: '#',
-    //   gradient: 'sunset',
-    // },
   ],
 };
