@@ -36,12 +36,12 @@ window.PROJECTS_DATA = {
     {
       title: 'Detección de fraude en tarjetas de crédito',
       description:
-        'Análisis y machine learning sobre 284k transacciones: EDA, manejo del desbalance de clases con SMOTE, evaluación con precision/recall/F1 y ajuste del umbral de decisión. Flujo completo de Data Science.',
-      tags: ['Python', 'pandas', 'scikit-learn', 'XGBoost', 'Machine Learning'],
-      demoUrl: '#',
+        'ML sobre 284k transacciones: EDA, balanceo con SMOTE, comparación de modelos (Logistic Regression, Random Forest, XGBoost) y ajuste del umbral de decisión. Incluye un dashboard interactivo en Streamlit para subir datos y ver predicciones, métricas y el impacto económico del umbral.',
+      tags: ['Python', 'pandas', 'scikit-learn', 'XGBoost', 'Machine Learning', 'Streamlit'],
+      demoUrl: '#', // ← URL real tras el deploy en Streamlit Cloud
       repoUrl: 'https://github.com/EnzoLaTorre/fraud-detection',
       notebookUrl: 'https://nbviewer.org/github/EnzoLaTorre/fraud-detection/blob/main/notebooks/fraud_analysis.ipynb',
-      image: '',
+      image: 'imagenes/fraude-dashboard.png', // ← screenshot del dashboard (a completar)
       gradient: 'ocean',
     },
   ],
