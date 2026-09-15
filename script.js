@@ -198,13 +198,19 @@ function initProjectsGrid() {
   grid.innerHTML = data.projects
     .map((p) => {
       const hasDemo = p.demoUrl && p.demoUrl !== '#';
-      const overlayLinks = hasDemo || p.repoUrl
+      const hasNotebook = p.notebookUrl && p.notebookUrl !== '#';
+      const overlayLinks = hasDemo || hasNotebook || p.repoUrl
         ? `
             <div class="project-overlay">
               ${hasDemo
                 ? `<a href="${p.demoUrl}" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline overlay-btn">Demo ↗</a>`
                 : ''}
-              <a href="${p.repoUrl}" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-primary overlay-btn">Código ↗</a>
+              ${hasNotebook
+                ? `<a href="${p.notebookUrl}" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline overlay-btn">Notebook ↗</a>`
+                : ''}
+              ${p.repoUrl
+                ? `<a href="${p.repoUrl}" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-primary overlay-btn">Código ↗</a>`
+                : ''}
             </div>
           `
         : '';

@@ -7,6 +7,7 @@
 //   tags         (obligatorio) Arreglo de tecnologías: ['HTML','CSS',...]
 //   demoUrl      (obligatorio) Enlace al demo ('#' si aún no tienes).
 //   repoUrl      (obligatorio) Enlace al repositorio.
+//   notebookUrl  (opcional)    Enlace para ver el notebook (p. ej. nbviewer).
 //   image        (opcional)    URL de la captura/screenshot del proyecto.
 //   gradient     (opcional)    Clave de degradado de abajo; solo si no usas image.
 // ============================================================
@@ -39,6 +40,7 @@ window.PROJECTS_DATA = {
       tags: ['Python', 'pandas', 'scikit-learn', 'XGBoost', 'Machine Learning'],
       demoUrl: '#',
       repoUrl: 'https://github.com/EnzoLaTorre/fraud-detection',
+      notebookUrl: 'https://nbviewer.org/github/EnzoLaTorre/fraud-detection/blob/main/notebooks/fraud_analysis.ipynb',
       image: '',
       gradient: 'ocean',
     },
