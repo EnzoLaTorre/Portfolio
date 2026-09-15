@@ -41,7 +41,7 @@ window.PROJECTS_DATA = {
       demoUrl: 'https://fraud-detection-l9fzuu2wdfk3rj8ewfjj63.streamlit.app/',
       repoUrl: 'https://github.com/EnzoLaTorre/fraud-detection',
       notebookUrl: 'https://nbviewer.org/github/EnzoLaTorre/fraud-detection/blob/main/notebooks/fraud_analysis.ipynb',
-      image: 'imagenes/fraude-dashboard.png', // ← screenshot del dashboard (a completar)
+      image: 'imagenes/fraude-dashboard-v2.png',
       gradient: 'ocean',
     },
   ],
