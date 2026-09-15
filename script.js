@@ -225,6 +225,9 @@ function initProjectsGrid() {
             <div class="project-tags">
               ${p.tags.map((t) => `<span class="tag">${t}</span>`).join('')}
             </div>
+            ${p.notebookUrl
+              ? `<p class="project-notebook"><a href="${p.notebookUrl}" target="_blank" rel="noopener noreferrer">Ver notebook ↗</a></p>`
+              : ''}
           </div>
         </article>
       `;
