@@ -38,7 +38,7 @@ window.PROJECTS_DATA = {
       description:
         'ML sobre 284k transacciones: EDA, balanceo con SMOTE, comparación de modelos (Logistic Regression, Random Forest, XGBoost) y ajuste del umbral de decisión. Incluye un dashboard interactivo en Streamlit para subir datos y ver predicciones, métricas y el impacto económico del umbral.',
       tags: ['Python', 'pandas', 'scikit-learn', 'XGBoost', 'Machine Learning', 'Streamlit'],
-      demoUrl: '#', // ← URL real tras el deploy en Streamlit Cloud
+      demoUrl: 'https://fraud-detection-l9fzuu2wdfk3rj8ewfjj63.streamlit.app/',
       repoUrl: 'https://github.com/EnzoLaTorre/fraud-detection',
       notebookUrl: 'https://nbviewer.org/github/EnzoLaTorre/fraud-detection/blob/main/notebooks/fraud_analysis.ipynb',
       image: 'imagenes/fraude-dashboard.png', // ← screenshot del dashboard (a completar)
